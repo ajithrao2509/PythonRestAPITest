@@ -1,0 +1,8 @@
+create task
+{'task': {'user_id': 'test_user 2', 'content': 'test content 2', 'is_done': False, 'created_time': 1718261633, 'task_id': 'task_5159010cd20c45f6930161f6b06d7018', 'ttl': 1718348033}}
+get task
+<Response [200]>
+{'is_done': False, 'content': 'test content 2', 'ttl': 1718348033, 'user_id': 'test_user 2', 'task_id': 'task_5159010cd20c45f6930161f6b06d7018', 'created_time': 1718261633}
+delete task
+<Response [200]>
+{'deleted_task_id': 'task_5159010cd20c45f6930161f6b06d7018'}

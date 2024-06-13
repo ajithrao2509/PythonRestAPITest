@@ -19,7 +19,7 @@ def test_post_rqst(name, email, gender, status):
     payload = {"name": name, "email": email, "gender": gender, "status": status}
     headers = {
         "content-type": "application/json",
-        "Authorization": "Bearer a0c897d10d19ed6346b8d11ae152d757d11f51c652de67b54a7378ee36243d10",
+        "Authorization": "Bearer e3560753d7d995ff245c508465a595a9907965067a7d88a452477ac532d74d7f",
     }
     response = requests.post(endpoint, json=payload, headers=headers)
     print(response.status_code)
@@ -36,7 +36,7 @@ def test_get_rqst():
     print("get rqst")
     headers = {
         "content-type": "application/json",
-        "Authorization": "Bearer a0c897d10d19ed6346b8d11ae152d757d11f51c652de67b54a7378ee36243d10",
+        "Authorization": "Bearer 7b614933cf817fa46a516d23a3cb2b7ff514426adbe4e9edd2f40346d622eb26",
     }
     response = requests.get(endpoint + f"{id_user}", headers=headers)
     print(response.status_code)
@@ -48,7 +48,7 @@ def test_put_rqst():
     print("put rqst")
     headers = {
         "content-type": "application/json",
-        "Authorization": "Bearer a0c897d10d19ed6346b8d11ae152d757d11f51c652de67b54a7378ee36243d10",
+        "Authorization": "Bearer 7b614933cf817fa46a516d23a3cb2b7ff514426adbe4e9edd2f40346d622eb26",
     }
     payload = {"gender": "female", "status": "inactive"}
     response = requests.put(endpoint + f"{id_user}", json=payload, headers=headers)

@@ -1,5 +1,0 @@
-post rqst
-tester15
-201
-{'id': 2859808, 'name': 'tester15', 'email': 'tester15@email.com', 'gender': 'male', 'status': 'active'}
-2859808

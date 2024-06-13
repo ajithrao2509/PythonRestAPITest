@@ -1,8 +1,0 @@
-create task
-{'task': {'user_id': 'test_user 2', 'content': 'test content 2', 'is_done': False, 'created_time': 1716139243, 'task_id': 'task_a4e70d41e2984171b8cdf653807939a7', 'ttl': 1716225643}}
-get task
-<Response [200]>
-{'is_done': False, 'content': 'test content 2', 'ttl': 1716225643, 'user_id': 'test_user 2', 'task_id': 'task_a4e70d41e2984171b8cdf653807939a7', 'created_time': 1716139243}
-delete task
-<Response [200]>
-{'deleted_task_id': 'task_a4e70d41e2984171b8cdf653807939a7'}

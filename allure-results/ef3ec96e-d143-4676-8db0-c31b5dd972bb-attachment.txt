@@ -1,3 +1,0 @@
-get rqst
-200
-{'id': 2859809, 'name': 'tester16', 'email': 'tester16@email.com', 'gender': 'male', 'status': 'active'}

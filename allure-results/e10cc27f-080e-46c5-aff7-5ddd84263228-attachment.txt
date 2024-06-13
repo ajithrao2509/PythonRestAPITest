@@ -1,3 +1,0 @@
-put rqst
-200
-{'gender': 'female', 'status': 'inactive', 'id': 2859809, 'name': 'tester16', 'email': 'tester16@email.com'}
